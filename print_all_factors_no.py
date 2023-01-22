@@ -5,8 +5,7 @@ Write a python function to print all factors of a given number (TSRN)
 # defining a function "print_all_factors()" which takes a number as an argument
 # and prints all the factors of the number
 def print_all_factors(num):
-    print("Factors : 1", end=' ')
-    for e in range(2, num+1):
+    for e in range(1, num+1):
         if num%e == 0:
             print(e, end=' ')
             
